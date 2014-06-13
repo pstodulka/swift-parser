@@ -18,8 +18,10 @@
     "test": "grunt test"
   },
   "keywords": [
-    "swift"
+    "swift",
+    "iso15022",
+    "15022"
   ],
   "author": "Petr Stodulka",
-  "license": "BSD-2-Clause"
+  "license": "MIT"
 }
