@@ -1,27 +1,31 @@
 {
-  "name": "swift-parser",
-  "version": "0.1.0",
-  "description": "Metadata driven parser of ISO 15022 messages.",
-  "main": "swiftParser.js",
-  "directories": {
-    "test": "tests"
-  },
-  "dependencies": {
-    "xregexp": "~2.0.0"
-  },
-  "devDependencies": {
-    "grunt": "~0.4.5",
-    "assert": "~1.1.1",
-    "grunt-mocha-test": "~0.11.0"
-  },
-  "scripts": {
-    "test": "grunt test"
-  },
-  "keywords": [
-    "swift",
-    "iso15022",
-    "15022"
-  ],
-  "author": "Petr Stodulka",
-  "license": "MIT"
+    "name": "swift-parser",
+    "version": "0.1.0",
+    "description": "Metadata driven parser of ISO 15022 messages.",
+    "main": "swiftParser.js",
+    "directories": {
+        "test": "tests"
+    },
+    "dependencies": {
+        "xregexp": "~2.0.0"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "assert": "~1.1.1",
+        "grunt-mocha-test": "~0.11.0"
+    },
+    "scripts": {
+        "test": "grunt test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/pstodulka/swift-parser.git"
+    },
+    "keywords": [
+        "swift",
+        "iso15022",
+        "15022"
+    ],
+    "author": "Petr Stodulka",
+    "license": "MIT"
 }
