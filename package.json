@@ -19,13 +19,13 @@
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/pstodulka/swift-parser.git"
+        "url": "git://github.com/swiftlet/swift-parser.git"
     },
     "keywords": [
         "swift",
         "iso15022",
         "15022"
     ],
-    "author": "Petr Stodulka",
+    "author": "Swiftlet",
     "license": "MIT"
 }
