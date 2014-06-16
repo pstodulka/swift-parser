@@ -18,12 +18,11 @@ parser.parse(swift, function(err, ast) {
 }
 ```
 
-It is possible to run the `SWIFT parser` from the command line:
+It is possible to run the `SWIFT parser` from the command line. The following call prints out the result to the standard output:
 
 ```
 $ node swiftParser file.txt
 ```
-prints out the result to the standard output.
 
 ## API
 
@@ -31,7 +30,7 @@ prints out the result to the standard output.
 Initializes a new instance of `SWIFT Parser` using given metadata. If `metadata` is omitted, the default metadata is used.
 
 ### swiftParser.parse(swift, callback)
-Parses the `swift` message. Expects the line breaks to be in Windows format `\r\n` .
+Parses the `swift` message. The line breaks of `swift` must be in Windows format (`\r\n`).
 
 ## Example
 Parsing of this message:
