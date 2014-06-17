@@ -9,7 +9,7 @@ JavaScript parser of [ISO 15022](http://www.iso15022.org/) messages used for mes
 * one-way parsing only - doesn't generate the MT messages
 
 ## Limitations
-* cannot parse field 77E (message MTn98)
+* cannot parse field `77E` - message _MT n98 Proprietary Message_ 
 * cannot parse ACK/NAK messages 
 
 ## Installation
