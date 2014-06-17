@@ -1,20 +1,23 @@
 # SWIFT Parser
 JavaScript parser of [ISO 15022](http://www.iso15022.org/) messages used for messaging in securities trading by the [SWIFT network](http://www.swift.com/).
  
-## Capabilities
-* parses any MT message defined by the [ISO 15022](http://www.iso15022.org/) standard
+## Features
+* parses any FIN MT message defined by the [ISO 15022](http://www.iso15022.org/) standard
 * parses the message fields
 * non-validating - generously parses messages not 100% compliant with the ISO standard
 * no checking of SWIFT network rules
+* one-way parsing only - doesn't generate the MT messages
+
+## Limitations
+* cannot parse field 77E (message MTn98)
+* cannot parse ACK/NAK messages 
 
 ## Installation
-
 ```
 $ npm install --save git://github.com/swiftlet/swift-parser.git
 ```
 
 ## Usage
-
 ```JavaScript
 var SwiftParser = require('swift-parser').SwiftParser;
 

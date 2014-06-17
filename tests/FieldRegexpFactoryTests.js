@@ -213,15 +213,15 @@ describe('FieldParser', function() {
         assert.deepEqual(result, {Qualifier:"ABCD", Sign:"N", 'Currency Code':"CZK", Amount:"123,456"});
     });
 
-    it('special handling of 98E - mandatory only', function(){
+    it('handling of 98E - mandatory only', function(){
         var result = parser.parse('98E', 'ABCD//20140427133200');
         assert.deepEqual(result, {Qualifier:"ABCD", Date:"20140427", Time:"133200"});
     });
-    it('special handling of 98E - with decimals', function(){
+    it('handling of 98E - with decimals', function(){
         var result = parser.parse('98E', 'ABCD//20140427133200,123');
         assert.deepEqual(result, {Qualifier:"ABCD", Date:"20140427", Time:"133200", Decimals:"123"});
     });
-    it('special handling of 98E - with sign', function(){ //UTC Sign is not part of field names
+    it('handling of 98E - with sign', function(){
         var result = parser.parse('98E', 'ABCD//20140427133200/N0102');
         assert.deepEqual(result, {Qualifier:"ABCD", Date:"20140427", Time:"133200", "UTC Sign":"N", "UTC Indicator":"0102"});
     });
@@ -300,7 +300,7 @@ var patterns = {
     },
     "98E": {
         "pattern": ":4!c//8!n6!n[,3n][/[N]2!n[2!n]]",
-        "fieldNames": "(Qualifier)(Date)(Time)(Decimals)(UTC Indicator)"
+        "fieldNames": "(Qualifier)(Date)(Time)(Decimals)(UTC Sign)(UTC Indicator)"
     },
     "70G": {
         "pattern": ":4!c//10*35z",

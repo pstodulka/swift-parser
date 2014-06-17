@@ -24,9 +24,6 @@
         if (fieldHeader === "77E") {
           throw new Error("Parsing of field 77E is not supported.");
         }
-        if (fieldHeader === "98E" && fieldMetadata.fieldNames === "(Qualifier)(Date)(Time)(Decimals)(UTC Indicator)") {
-          fieldMetadata.fieldNames = "(Qualifier)(Date)(Time)(Decimals)(UTC Sign)(UTC Indicator)";
-        }
         regexpSt = this.regexpFactory.createRegexp(fieldMetadata.pattern, fieldMetadata.fieldNames);
         this.fieldParsers[fieldHeader] = new FieldContentParser(regexpSt, new FieldNames(fieldMetadata.fieldNames));
       }

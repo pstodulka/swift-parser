@@ -14,8 +14,6 @@ class FieldParser
 
       if(fieldHeader == "77E")
         throw new Error("Parsing of field 77E is not supported.") #this field has a very strange pattern and multiple fields with the same name
-      if(fieldHeader == "98E" and fieldMetadata.fieldNames=="(Qualifier)(Date)(Time)(Decimals)(UTC Indicator)")
-        fieldMetadata.fieldNames = "(Qualifier)(Date)(Time)(Decimals)(UTC Sign)(UTC Indicator)"
 
       regexpSt = @regexpFactory.createRegexp(fieldMetadata.pattern, fieldMetadata.fieldNames)
       @fieldParsers[fieldHeader] = new FieldContentParser(regexpSt, new FieldNames(fieldMetadata.fieldNames))
