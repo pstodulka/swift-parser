@@ -7,6 +7,12 @@ JavaScript parser of [ISO 15022](http://www.iso15022.org/) messages used for mes
 * non-validating - generously parses messages not 100% compliant with the ISO standard
 * no checking of SWIFT network rules
 
+## Installation
+
+```
+$ npm install --save git://github.com/swiftlet/swift-parser.git
+```
+
 ## Usage
 
 ```JavaScript
@@ -18,7 +24,7 @@ parser.parse(swift, function(err, ast) {
 }
 ```
 
-It is possible to run the `SWIFT parser` from the command line. The following call prints out the result to the standard output:
+It is possible to run the `SWIFT parser` from the command line. The result is written to the standard output:
 
 ```
 $ node swiftParser file.txt
@@ -96,7 +102,7 @@ TIMELY PAYMENT EXPECTED
 
 results in the following ast:
 
-```
+```JSON
 {
   "block1": {
     "blockId": 1,
