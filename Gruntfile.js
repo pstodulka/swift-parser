@@ -1,10 +1,10 @@
 module.exports = function(grunt) {
 
-    // Add the grunt-mocha-test tasks.
     grunt.loadNpmTasks('grunt-mocha-test');
+	grunt.loadNpmTasks('grunt-peg');
+	grunt.loadNpmTasks('grunt-newer');
 
     grunt.initConfig({
-        // Configure a mochaTest task
         mochaTest: {
             test: {
                 options: {
@@ -12,10 +12,18 @@ module.exports = function(grunt) {
                 },
                 src: ['tests/**/*.js']
             }
-        }
+        },
+		peg: {
+			grammars: {
+			  expand: true,
+			  src: "*.pegjs",
+			  ext: ".js",
+			}
+		}
     });
 
     grunt.registerTask('default', 'mochaTest');
     grunt.registerTask('test', 'mochaTest');
+    grunt.registerTask('pegs', 'newer:peg');
 
 };
