@@ -2,7 +2,7 @@ module.exports = function(grunt) {
 
     grunt.loadNpmTasks('grunt-mocha-test');
 	grunt.loadNpmTasks('grunt-peg');
-	grunt.loadNpmTasks('grunt-newer');
+	grunt.loadNpmTasks('grunt-newer'); 
 
     grunt.initConfig({
         mochaTest: {
