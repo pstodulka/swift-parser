@@ -1,0 +1,4 @@
+*.coffee
+*.peg
+*.map
+tests/
