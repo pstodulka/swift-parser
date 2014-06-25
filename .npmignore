@@ -2,3 +2,4 @@
 *.peg
 *.map
 tests/
+.idea

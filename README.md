@@ -13,6 +13,11 @@ JavaScript parser of [ISO 15022](http://www.iso15022.org/) messages used for mes
 * cannot parse ACK/NAK messages 
 
 ## Installation
+Installation from npm:
+```Shell
+$ npm install --save swift-parser
+```
+
 Installation from the git repository:
 ```Shell
 $ npm install --save git://github.com/swiftlet/swift-parser.git
