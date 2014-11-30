@@ -51,129 +51,17 @@
     "pattern": "35*50x",
     "fieldNames": "(Narrative)"
   },
-  "16R": {
-    "pattern": "16c",
-    "fieldNames": ""
-  },
-  "98A": {
-    "pattern": ":4!c//8!n",
-    "fieldNames": "(Qualifier)(Date)"
-  },
-  "92B": {
-    "pattern": ":4!c//3!a/3!a/15d",
-    "fieldNames": "(Qualifier)(First Currency Code)(Second Currency Code)(Rate)"
-  },
-  "95P": {
-    "pattern": ":4!c//4!a2!a2!c[3!c]",
-    "fieldNames": "(Qualifier)(Identifier Code)"
-  },
-  "95Q": {
-    "pattern": ":4!c//4*35x",
-    "fieldNames": "(Qualifier)(Name and Address)"
-  },
-  "95R": {
-    "pattern": ":4!c/8c/34x",
-    "fieldNames": "(Qualifier)(Data Source Scheme)(Proprietary Code)"
-  },
-  "16S": {
-    "pattern": "16c",
-    "fieldNames": ""
-  },
-  "97A": {
-    "pattern": ":4!c//35x",
-    "fieldNames": "(Qualifier)(Account Number)"
-  },
-  "20C": {
-    "pattern": ":4!c//16x",
-    "fieldNames": "(Qualifier)(Reference)"
-  },
-  "19B": {
-    "pattern": ":4!c//3!a15d",
-    "fieldNames": "(Qualifier)(Currency Code)(Amount)"
-  },
-  "70C": {
-    "pattern": ":4!c//4*35x",
-    "fieldNames": "(Qualifier)(Narrative)"
-  },
-  "23G": {
-    "pattern": "4!c[/4!c]",
-    "fieldNames": "(Function)(Subfunction)"
-  },
-  "13A": {
-    "pattern": ":4!c//3!c",
-    "fieldNames": "(Qualifier)(Number Identification)"
-  },
-  "13B": {
-    "pattern": ":4!c/[8c]/30x",
-    "fieldNames": "(Qualifier)(Data Source Scheme)(Number)"
-  },
-  "22H": {
-    "pattern": ":4!c//4!c",
-    "fieldNames": "(Qualifier)(Indicator)"
-  },
-  "22F": {
-    "pattern": ":4!c/[8c]/4!c",
-    "fieldNames": "(Qualifier)(Data Source Scheme)(Indicator)"
-  },
-  "19A": {
-    "pattern": ":4!c//[N]3!a15d",
-    "fieldNames": "(Qualifier)(Sign)(Currency Code)(Amount)"
-  },
-  "92A": {
-    "pattern": ":4!c//[N]15d",
-    "fieldNames": "(Qualifier)(Sign)(Rate)"
-  },
-  "99B": {
-    "pattern": ":4!c//3!n",
-    "fieldNames": "(Qualifier)(Number)"
-  },
-  "98C": {
-    "pattern": ":4!c//8!n6!n",
-    "fieldNames": "(Qualifier)(Date)(Time)"
-  },
-  "99A": {
-    "pattern": ":4!c//[N]3!n",
-    "fieldNames": "(Qualifier)(Sign)(Number)"
-  },
-  "99C": {
-    "pattern": ":4!c//6!n",
-    "fieldNames": "(Qualifier)(Number)"
-  },
-  "70E": {
-    "pattern": ":4!c//10*35x",
-    "fieldNames": "(Qualifier)(Narrative)"
-  },
-  "98E": {
-    "pattern": ":4!c//8!n6!n[,3n][/[N]2!n[2!n]]",
-    "fieldNames": "(Qualifier)(Date)(Time)(Decimals)(UTC Sign)(UTC Indicator)"
-  },
   "11A": {
     "pattern": ":4!c//3!a",
     "fieldNames": "(Qualifier)(Currency Code)"
   },
-  "24B": {
-    "pattern": ":4!c/[8c]/4!c",
-    "fieldNames": "(Qualifier)(Data Source Scheme)(Reason Code)"
+  "11R": {
+    "pattern": "3!n$6!n$[4!n6!n]",
+    "fieldNames": "(MT Number)$(Date)$(Session Number)(ISN)"
   },
-  "70D": {
-    "pattern": ":4!c//6*35x",
-    "fieldNames": "(Qualifier)(Narrative)"
-  },
-  "35B": {
-    "pattern": "[ISIN1!e12!c]$[4*35x]",
-    "fieldNames": "(Identification of Security)$(Description of Security)"
-  },
-  "36B": {
-    "pattern": ":4!c//4!c/15d",
-    "fieldNames": "(Qualifier)(Quantity Type Code)(Quantity)"
-  },
-  "20D": {
-    "pattern": ":4!c//25x",
-    "fieldNames": "(Qualifier)(Reference)"
-  },
-  "94B": {
-    "pattern": ":4!c/[8c]/4!c[/30x]",
-    "fieldNames": "(Qualifier)(Data Source Scheme)(Place Code)(Narrative)"
+  "11S": {
+    "pattern": "3!n$6!n$[4!n6!n]",
+    "fieldNames": "(MT Number)$(Date)$(Session Number)(ISN)"
   },
   "12A": {
     "pattern": ":4!c/[8c]/30x",
@@ -187,81 +75,273 @@
     "pattern": ":4!c//6!c",
     "fieldNames": "(Qualifier)(CFI Code)"
   },
-  "17B": {
-    "pattern": ":4!c//1!a",
-    "fieldNames": "(Qualifier)(Flag)"
+  "13A": {
+    "pattern": ":4!c//3!c",
+    "fieldNames": "(Qualifier)(Number Identification)"
   },
-  "90A": {
-    "pattern": ":4!c//4!c/15d",
-    "fieldNames": "(Qualifier)(Percentage Type Code)(Price)"
+  "13B": {
+    "pattern": ":4!c/[8c]/30x",
+    "fieldNames": "(Qualifier)(Data Source Scheme)(Number)"
   },
-  "90B": {
-    "pattern": ":4!c//4!c/3!a15d",
-    "fieldNames": "(Qualifier)(Amount Type Code)(Currency Code)(Price)"
-  },
-  "95S": {
-    "pattern": ":4!c/[8c]/4!c/2!a/30x",
-    "fieldNames": "(Qualifier)(Data Source Scheme)(Type of ID)(Country Code)(Alternate ID)"
-  },
-  "95U": {
-    "pattern": ":4!c//3*35x",
-    "fieldNames": "(Qualifier)(Name)"
-  },
-  "94C": {
-    "pattern": ":4!c//2!a",
-    "fieldNames": "(Qualifier)(Country Code)"
-  },
-  "94D": {
-    "pattern": ":4!c//[2!a]/35x",
-    "fieldNames": "(Qualifier)(Country Code)(Place)"
-  },
-  "94G": {
-    "pattern": ":4!c//2*35x",
-    "fieldNames": "(Qualifier)(Address)"
-  },
-  "93B": {
-    "pattern": ":4!c/[8c]/4!c/[N]15d",
-    "fieldNames": "(Qualifier)(Data Source Scheme)(Quantity Type Code)(Sign)(Balance)"
-  },
-  "94F": {
-    "pattern": ":4!c//4!c/4!a2!a2!c[3!c]",
-    "fieldNames": "(Qualifier)(Place Code)(Identifier Code)"
-  },
-  "98B": {
-    "pattern": ":4!c/[8c]/4!c",
-    "fieldNames": "(Qualifier)(Data Source Scheme)(Date Code)"
-  },
-  "97B": {
-    "pattern": ":4!c/[8c]/4!c/35x",
-    "fieldNames": "(Qualifier)(Data Source Scheme)(Account Type Code)(Account Number)"
-  },
-  "97E": {
-    "pattern": ":4!c//34x",
-    "fieldNames": "(Qualifier)(International Bank Account Number)"
-  },
-  "95C": {
-    "pattern": ":4!c//2!a",
-    "fieldNames": "(Qualifier)(Country Code)"
-  },
-  "92C": {
-    "pattern": ":4!c/[8c]/24x",
-    "fieldNames": "(Qualifier)(Data Source Scheme)(Rate Name)"
-  },
-  "28E": {
-    "pattern": "5n/4!c",
-    "fieldNames": "(Page Number)(Continuation Indicator)"
-  },
-  "25D": {
-    "pattern": ":4!c/[8c]/4!c",
-    "fieldNames": "(Qualifier)(Data Source Scheme)(Status Code)"
+  "13J": {
+    "pattern": ":4!c//5!c",
+    "fieldNames": "(Qualifier)(Extended Number Id)"
   },
   "13K": {
     "pattern": ":4!c//3!c/15d",
     "fieldNames": "(Qualifier)(Number Id)(Quantity)"
   },
-  "93A": {
+  "16R": {
+    "pattern": "16c",
+    "fieldNames": ""
+  },
+  "16S": {
+    "pattern": "16c",
+    "fieldNames": ""
+  },
+  "17B": {
+    "pattern": ":4!c//1!a",
+    "fieldNames": "(Qualifier)(Flag)"
+  },
+  "19A": {
+    "pattern": ":4!c//[N]3!a15d",
+    "fieldNames": "(Qualifier)(Sign)(Currency Code)(Amount)"
+  },
+  "19B": {
+    "pattern": ":4!c//3!a15d",
+    "fieldNames": "(Qualifier)(Currency Code)(Amount)"
+  },
+  "20C": {
+    "pattern": ":4!c//16x",
+    "fieldNames": "(Qualifier)(Reference)"
+  },
+  "20D": {
+    "pattern": ":4!c//25x",
+    "fieldNames": "(Qualifier)(Reference)"
+  },
+  "22F": {
     "pattern": ":4!c/[8c]/4!c",
-    "fieldNames": "(Qualifier)(Data Source Scheme)(Sub-balance Type)"
+    "fieldNames": "(Qualifier)(Data Source Scheme)(Indicator)"
+  },
+  "22H": {
+    "pattern": ":4!c//4!c",
+    "fieldNames": "(Qualifier)(Indicator)"
+  },
+  "23G": {
+    "pattern": "4!c[/4!c]",
+    "fieldNames": "(Function)(Subfunction)"
+  },
+  "24B": {
+    "pattern": ":4!c/[8c]/4!c",
+    "fieldNames": "(Qualifier)(Data Source Scheme)(Reason Code)"
+  },
+  "25D": {
+    "pattern": ":4!c/[8c]/4!c",
+    "fieldNames": "(Qualifier)(Data Source Scheme)(Status Code)"
+  },
+  "26H": {
+    "pattern": "16x",
+    "fieldNames": ""
+  },
+  "28E": {
+    "pattern": "5n/4!c",
+    "fieldNames": "(Page Number)(Continuation Indicator)"
+  },
+  "29A": {
+    "pattern": "4*35x",
+    "fieldNames": "(Narrative)"
+  },
+  "29B": {
+    "pattern": "4*35x",
+    "fieldNames": "(Narrative)"
+  },
+  "31C": {
+    "pattern": "6!n",
+    "fieldNames": "(Date)"
+  },
+  "31E": {
+    "pattern": "6!n",
+    "fieldNames": "(Date)"
+  },
+  "31F": {
+    "pattern": "6!n[/6!n][//35x]",
+    "fieldNames": "(Date)(Period Date)(Period Details)"
+  },
+  "31L": {
+    "pattern": "6!n",
+    "fieldNames": "(Date)"
+  },
+  "31P": {
+    "pattern": "6!n[29x]",
+    "fieldNames": "(Date)(Place)"
+  },
+  "31S": {
+    "pattern": "6!n",
+    "fieldNames": "(Date)"
+  },
+  "31X": {
+    "pattern": "[6!n[4!n]][7!a]",
+    "fieldNames": "(Date)(Time)(Code)"
+  },
+  "32A": {
+    "pattern": "6!n3!a15d",
+    "fieldNames": "(Date)(Currency)(Amount)"
+  },
+  "32B": {
+    "pattern": "3!a15d",
+    "fieldNames": "(Currency)(Amount)"
+  },
+  "32C": {
+    "pattern": "6!n3!a15d",
+    "fieldNames": "(Date)(Currency)(Amount)"
+  },
+  "32D": {
+    "pattern": "6!n3!a15d",
+    "fieldNames": "(Date)(Currency)(Amount)"
+  },
+  "32G": {
+    "pattern": "3!a15d",
+    "fieldNames": "(Currency)(Amount)"
+  },
+  "32M": {
+    "pattern": "3!a15d",
+    "fieldNames": "(Currency)(Amount)"
+  },
+  "33S": {
+    "pattern": "3!a15d",
+    "fieldNames": "(Code)(Amount)"
+  },
+  "33T": {
+    "pattern": "3!a15d",
+    "fieldNames": "(Currency)(Price)"
+  },
+  "34A": {
+    "pattern": "6!n3!a15d",
+    "fieldNames": "(Date)(Currency)(Amount)"
+  },
+  "34B": {
+    "pattern": "3!a15d",
+    "fieldNames": "(Currency)(Amount)"
+  },
+  "35A": {
+    "pattern": "3!a15d",
+    "fieldNames": "(Type)(Quantity)"
+  },
+  "35B": {
+    "pattern": "[ISIN1!e12!c]$[4*35x]",
+    "fieldNames": "(Identification of Security)$(Description of Security)"
+  },
+  "35C": {
+    "pattern": "3!c",
+    "fieldNames": "(Number)"
+  },
+  "35D": {
+    "pattern": "6!n",
+    "fieldNames": "(Date)"
+  },
+  "35E": {
+    "pattern": "6*50x",
+    "fieldNames": "(Narrative)"
+  },
+  "35F": {
+    "pattern": "35*50x",
+    "fieldNames": "(Narrative)"
+  },
+  "35H": {
+    "pattern": "[N]3!a15d",
+    "fieldNames": "(Sign)(Currency)(Quantity)"
+  },
+  "35L": {
+    "pattern": "4*35x",
+    "fieldNames": "(Narrative)"
+  },
+  "35N": {
+    "pattern": "3!a15d",
+    "fieldNames": "(Type)(Quantity)"
+  },
+  "35S": {
+    "pattern": "3!a15d",
+    "fieldNames": "(Type)(Quantity)"
+  },
+  "35U": {
+    "pattern": "3!a15d[1!a]",
+    "fieldNames": "(Currency)(Price)(Period)"
+  },
+  "36B": {
+    "pattern": ":4!c//4!c/15d",
+    "fieldNames": "(Qualifier)(Quantity Type Code)(Quantity)"
+  },
+  "36C": {
+    "pattern": ":4!c//4!c",
+    "fieldNames": "(Qualifier)(Quantity Code)"
+  },
+  "36E": {
+    "pattern": ":4!c//4!c/[N]15d",
+    "fieldNames": "(Qualifier)(Quantity Type Code)(Sign)(Quantity)"
+  },
+  "37A": {
+    "pattern": "12d[//6!n1!a3n][/16x]",
+    "fieldNames": "(Rate)(End Date)(Period)(Number)(Information)"
+  },
+  "37B": {
+    "pattern": "12d[//6!n1!a3n][/16x]",
+    "fieldNames": "(Rate)(End Date)(Period)(Number)(Information)"
+  },
+  "37C": {
+    "pattern": "12d[//6!n1!a3n][/16x]",
+    "fieldNames": "(Rate)(End Date)(Period)(Number)(Information)"
+  },
+  "37D": {
+    "pattern": "12d[//6!n1!a3n][/16x]",
+    "fieldNames": "(Rate)(End Date)(Period)(Number)(Information)"
+  },
+  "37E": {
+    "pattern": "12d[//6!n1!a3n][/16x]",
+    "fieldNames": "(Rate)(End Date)(Period)(Number)(Information)"
+  },
+  "37F": {
+    "pattern": "12d[//6!n1!a3n][/16x]",
+    "fieldNames": "(Rate)(End Date)(Period)(Number)(Information)"
+  },
+  "37J": {
+    "pattern": "12d",
+    "fieldNames": "(Rate)"
+  },
+  "52A": {
+    "pattern": "[/1!a][/34x]$4!a2!a2!c[3!c]",
+    "fieldNames": "(Party Identifier)$(Identifier Code)"
+  },
+  "52D": {
+    "pattern": "[/1!a][/34x]$4*35x",
+    "fieldNames": "(Party Identifier)$(Name and Address)"
+  },
+  "53A": {
+    "pattern": "[/1!a][/34x]$4!a2!a2!c[3!c]",
+    "fieldNames": "(Party Identifier)$(Identifier Code)"
+  },
+  "53C": {
+    "pattern": "/34x",
+    "fieldNames": "(Account)"
+  },
+  "53D": {
+    "pattern": "[/1!a][/34x]$4*35x",
+    "fieldNames": "(Party Identifier)$(Name and Address)"
+  },
+  "57A": {
+    "pattern": "[/1!a][/34x]$4!a2!a2!c[3!c]",
+    "fieldNames": "(Party Identifier)$(Identifier Code)"
+  },
+  "57B": {
+    "pattern": "[/1!a][/34x]$[35x]",
+    "fieldNames": "(Party Identifier)$(Location)"
+  },
+  "57D": {
+    "pattern": "[/1!a][/34x]$4*35x",
+    "fieldNames": "(Party Identifier)$(Name and Address)"
+  },
+  "67A": {
+    "pattern": "6!n[/6!n]",
+    "fieldNames": "(Date 1)(Date 2)"
   },
   "69A": {
     "pattern": ":4!c//8!n/8!n",
@@ -291,9 +371,61 @@
     "pattern": ":4!c//4!c",
     "fieldNames": "(Qualifier)(Date Code)"
   },
-  "31F": {
-    "pattern": "6!n[/6!n][//35x]",
-    "fieldNames": "(Date)(Period Date)(Period Details)"
+  "70C": {
+    "pattern": ":4!c//4*35x",
+    "fieldNames": "(Qualifier)(Narrative)"
+  },
+  "70D": {
+    "pattern": ":4!c//6*35x",
+    "fieldNames": "(Qualifier)(Narrative)"
+  },
+  "70E": {
+    "pattern": ":4!c//10*35x",
+    "fieldNames": "(Qualifier)(Narrative)"
+  },
+  "70F": {
+    "pattern": ":4!c//8000z",
+    "fieldNames": "(Qualifier)(Narrative)"
+  },
+  "70G": {
+    "pattern": ":4!c//10*35z",
+    "fieldNames": "(Qualifier)(Narrative)"
+  },
+  "71B": {
+    "pattern": "6*35x",
+    "fieldNames": "(Narrative)"
+  },
+  "71C": {
+    "pattern": "6*35x",
+    "fieldNames": "(Narrative)"
+  },
+  "77A": {
+    "pattern": "20*35x",
+    "fieldNames": "(Narrative)"
+  },
+  "77D": {
+    "pattern": "6*35x",
+    "fieldNames": "(Narrative)"
+  },
+  "77E": {
+    "pattern": "73x$[n*78x]",
+    "fieldNames": "(Text)$(Text)"
+  },
+  "80C": {
+    "pattern": "6*35x",
+    "fieldNames": "(Narrative)"
+  },
+  "83A": {
+    "pattern": "[/1!a][/34x]$4!a2!a2!c[3!c]",
+    "fieldNames": "(Party Identifier)$(Identifier Code)"
+  },
+  "83C": {
+    "pattern": "/34x",
+    "fieldNames": "(Account)"
+  },
+  "83D": {
+    "pattern": "[/1!a][/34x]$4*35x",
+    "fieldNames": "(Party Identifier)$(Name and Address)"
   },
   "87A": {
     "pattern": "[/1!a][/34x]$4!a2!a2!c[3!c]",
@@ -303,229 +435,17 @@
     "pattern": "[/1!a][/34x]$4*35x",
     "fieldNames": "(Party Identifier)$(Name and Address)"
   },
-  "35N": {
-    "pattern": "3!a15d",
-    "fieldNames": "(Type)(Quantity)"
+  "90A": {
+    "pattern": ":4!c//4!c/15d",
+    "fieldNames": "(Qualifier)(Percentage Type Code)(Price)"
   },
-  "33T": {
-    "pattern": "3!a15d",
-    "fieldNames": "(Currency)(Price)"
-  },
-  "37J": {
-    "pattern": "12d",
-    "fieldNames": "(Rate)"
-  },
-  "26H": {
-    "pattern": "16x",
-    "fieldNames": ""
-  },
-  "33S": {
-    "pattern": "3!a15d",
-    "fieldNames": "(Code)(Amount)"
-  },
-  "32A": {
-    "pattern": "6!n3!a15d",
-    "fieldNames": "(Date)(Currency)(Amount)"
-  },
-  "32B": {
-    "pattern": "3!a15d",
-    "fieldNames": "(Currency)(Amount)"
-  },
-  "37A": {
-    "pattern": "12d[//6!n1!a3n][/16x]",
-    "fieldNames": "(Rate)(End Date)(Period)(Number)(Information)"
-  },
-  "37B": {
-    "pattern": "12d[//6!n1!a3n][/16x]",
-    "fieldNames": "(Rate)(End Date)(Period)(Number)(Information)"
-  },
-  "37C": {
-    "pattern": "12d[//6!n1!a3n][/16x]",
-    "fieldNames": "(Rate)(End Date)(Period)(Number)(Information)"
-  },
-  "37D": {
-    "pattern": "12d[//6!n1!a3n][/16x]",
-    "fieldNames": "(Rate)(End Date)(Period)(Number)(Information)"
-  },
-  "37E": {
-    "pattern": "12d[//6!n1!a3n][/16x]",
-    "fieldNames": "(Rate)(End Date)(Period)(Number)(Information)"
-  },
-  "37F": {
-    "pattern": "12d[//6!n1!a3n][/16x]",
-    "fieldNames": "(Rate)(End Date)(Period)(Number)(Information)"
-  },
-  "57A": {
-    "pattern": "[/1!a][/34x]$4!a2!a2!c[3!c]",
-    "fieldNames": "(Party Identifier)$(Identifier Code)"
-  },
-  "57B": {
-    "pattern": "[/1!a][/34x]$[35x]",
-    "fieldNames": "(Party Identifier)$(Location)"
-  },
-  "57D": {
-    "pattern": "[/1!a][/34x]$4*35x",
-    "fieldNames": "(Party Identifier)$(Name and Address)"
-  },
-  "35S": {
-    "pattern": "3!a15d",
-    "fieldNames": "(Type)(Quantity)"
-  },
-  "77D": {
-    "pattern": "6*35x",
-    "fieldNames": "(Narrative)"
-  },
-  "31P": {
-    "pattern": "6!n[29x]",
-    "fieldNames": "(Date)(Place)"
-  },
-  "83C": {
-    "pattern": "/34x",
-    "fieldNames": "(Account)"
-  },
-  "35A": {
-    "pattern": "3!a15d",
-    "fieldNames": "(Type)(Quantity)"
-  },
-  "31L": {
-    "pattern": "6!n",
-    "fieldNames": "(Date)"
-  },
-  "31X": {
-    "pattern": "[6!n[4!n]][7!a]",
-    "fieldNames": "(Date)(Time)(Code)"
-  },
-  "29A": {
-    "pattern": "4*35x",
-    "fieldNames": "(Narrative)"
-  },
-  "29B": {
-    "pattern": "4*35x",
-    "fieldNames": "(Narrative)"
-  },
-  "13J": {
-    "pattern": ":4!c//5!c",
-    "fieldNames": "(Qualifier)(Extended Number Id)"
+  "90B": {
+    "pattern": ":4!c//4!c/3!a15d",
+    "fieldNames": "(Qualifier)(Amount Type Code)(Currency Code)(Price)"
   },
   "90E": {
     "pattern": ":4!c//4!c",
     "fieldNames": "(Qualifier)(Price Code)"
-  },
-  "93C": {
-    "pattern": ":4!c//4!c/4!c/[N]15d",
-    "fieldNames": "(Qualifier)(Quantity Type Code)(Balance Type Code)(Sign)(Balance)"
-  },
-  "94H": {
-    "pattern": ":4!c//4!a2!a2!c[3!c]",
-    "fieldNames": "(Qualifier)(Identifier Code)"
-  },
-  "35E": {
-    "pattern": "6*50x",
-    "fieldNames": "(Narrative)"
-  },
-  "35U": {
-    "pattern": "3!a15d[1!a]",
-    "fieldNames": "(Currency)(Price)(Period)"
-  },
-  "31E": {
-    "pattern": "6!n",
-    "fieldNames": "(Date)"
-  },
-  "31C": {
-    "pattern": "6!n",
-    "fieldNames": "(Date)"
-  },
-  "31S": {
-    "pattern": "6!n",
-    "fieldNames": "(Date)"
-  },
-  "80C": {
-    "pattern": "6*35x",
-    "fieldNames": "(Narrative)"
-  },
-  "35L": {
-    "pattern": "4*35x",
-    "fieldNames": "(Narrative)"
-  },
-  "32M": {
-    "pattern": "3!a15d",
-    "fieldNames": "(Currency)(Amount)"
-  },
-  "32G": {
-    "pattern": "3!a15d",
-    "fieldNames": "(Currency)(Amount)"
-  },
-  "71C": {
-    "pattern": "6*35x",
-    "fieldNames": "(Narrative)"
-  },
-  "71B": {
-    "pattern": "6*35x",
-    "fieldNames": "(Narrative)"
-  },
-  "34A": {
-    "pattern": "6!n3!a15d",
-    "fieldNames": "(Date)(Currency)(Amount)"
-  },
-  "53A": {
-    "pattern": "[/1!a][/34x]$4!a2!a2!c[3!c]",
-    "fieldNames": "(Party Identifier)$(Identifier Code)"
-  },
-  "53C": {
-    "pattern": "/34x",
-    "fieldNames": "(Account)"
-  },
-  "53D": {
-    "pattern": "[/1!a][/34x]$4*35x",
-    "fieldNames": "(Party Identifier)$(Name and Address)"
-  },
-  "35C": {
-    "pattern": "3!c",
-    "fieldNames": "(Number)"
-  },
-  "35D": {
-    "pattern": "6!n",
-    "fieldNames": "(Date)"
-  },
-  "92D": {
-    "pattern": ":4!c//15d/15d",
-    "fieldNames": "(Qualifier)(Quantity)(Quantity)"
-  },
-  "92K": {
-    "pattern": ":4!c//4!c",
-    "fieldNames": "(Qualifier)(Rate Type Code)"
-  },
-  "97C": {
-    "pattern": ":4!c//4!c",
-    "fieldNames": "(Qualifier)(Account Code)"
-  },
-  "36E": {
-    "pattern": ":4!c//4!c/[N]15d",
-    "fieldNames": "(Qualifier)(Quantity Type Code)(Sign)(Quantity)"
-  },
-  "92F": {
-    "pattern": ":4!c//3!a15d",
-    "fieldNames": "(Qualifier)(Currency Code)(Amount)"
-  },
-  "36C": {
-    "pattern": ":4!c//4!c",
-    "fieldNames": "(Qualifier)(Quantity Code)"
-  },
-  "94E": {
-    "pattern": ":4!c//10*35x",
-    "fieldNames": "(Qualifier)(Address)"
-  },
-  "70G": {
-    "pattern": ":4!c//10*35z",
-    "fieldNames": "(Qualifier)(Narrative)"
-  },
-  "98F": {
-    "pattern": ":4!c/[8c]/4!c6!n",
-    "fieldNames": "(Qualifier)(Data Source Scheme)(Date Code)(Time)"
-  },
-  "92J": {
-    "pattern": ":4!c/[8c]/4!c/3!a15d[/4!c]",
-    "fieldNames": "(Qualifier)(Data Source Scheme)(Rate Type Code)(Currency Code)(Amount)(Rate Status)"
   },
   "90F": {
     "pattern": ":4!c//4!c/3!a15d/4!c/15d",
@@ -539,6 +459,38 @@
     "pattern": ":4!c//15d",
     "fieldNames": "(Qualifier)(Index Points)"
   },
+  "90L": {
+    "pattern": ":4!c//[N]15d",
+    "fieldNames": "(Qualifier)(Sign)(Index Points)"
+  },
+  "92A": {
+    "pattern": ":4!c//[N]15d",
+    "fieldNames": "(Qualifier)(Sign)(Rate)"
+  },
+  "92B": {
+    "pattern": ":4!c//3!a/3!a/15d",
+    "fieldNames": "(Qualifier)(First Currency Code)(Second Currency Code)(Rate)"
+  },
+  "92C": {
+    "pattern": ":4!c/[8c]/24x",
+    "fieldNames": "(Qualifier)(Data Source Scheme)(Rate Name)"
+  },
+  "92D": {
+    "pattern": ":4!c//15d/15d",
+    "fieldNames": "(Qualifier)(Quantity)(Quantity)"
+  },
+  "92F": {
+    "pattern": ":4!c//3!a15d",
+    "fieldNames": "(Qualifier)(Currency Code)(Amount)"
+  },
+  "92J": {
+    "pattern": ":4!c/[8c]/4!c/3!a15d[/4!c]",
+    "fieldNames": "(Qualifier)(Data Source Scheme)(Rate Type Code)(Currency Code)(Amount)(Rate Status)"
+  },
+  "92K": {
+    "pattern": ":4!c//4!c",
+    "fieldNames": "(Qualifier)(Rate Type Code)"
+  },
   "92L": {
     "pattern": ":4!c//3!a15d/3!a15d",
     "fieldNames": "(Qualifier)(First Currency Code)(Amount)(Second Currency Code)(Amount)"
@@ -551,76 +503,136 @@
     "pattern": ":4!c//15d/3!a15d",
     "fieldNames": "(Qualifier)(Quantity)(Currency Code)(Amount)"
   },
-  "95V": {
-    "pattern": ":4!c//10*35x",
-    "fieldNames": "(Qualifier)(Name and Address)"
+  "92P": {
+    "pattern": ":4!c//15d",
+    "fieldNames": "(Qualifier)(Index Points)"
   },
-  "70F": {
-    "pattern": ":4!c//8000z",
-    "fieldNames": "(Qualifier)(Narrative)"
+  "92R": {
+    "pattern": ":4!c/[8c]/4!c/15d",
+    "fieldNames": "(Qualifier)(Data Source Scheme)(Rate Type Code)(Rate)"
   },
-  "95T": {
-    "pattern": ":4!c//2*35x",
-    "fieldNames": "(Qualifier)(Name)"
+  "93A": {
+    "pattern": ":4!c/[8c]/4!c",
+    "fieldNames": "(Qualifier)(Data Source Scheme)(Sub-balance Type)"
+  },
+  "93B": {
+    "pattern": ":4!c/[8c]/4!c/[N]15d",
+    "fieldNames": "(Qualifier)(Data Source Scheme)(Quantity Type Code)(Sign)(Balance)"
+  },
+  "93C": {
+    "pattern": ":4!c//4!c/4!c/[N]15d",
+    "fieldNames": "(Qualifier)(Quantity Type Code)(Balance Type Code)(Sign)(Balance)"
   },
   "93D": {
     "pattern": ":4!c//[N]15d",
     "fieldNames": "(Qualifier)(Sign)(Balance)"
   },
-  "83A": {
-    "pattern": "[/1!a][/34x]$4!a2!a2!c[3!c]",
-    "fieldNames": "(Party Identifier)$(Identifier Code)"
+  "94B": {
+    "pattern": ":4!c/[8c]/4!c[/30x]",
+    "fieldNames": "(Qualifier)(Data Source Scheme)(Place Code)(Narrative)"
   },
-  "83D": {
-    "pattern": "[/1!a][/34x]$4*35x",
-    "fieldNames": "(Party Identifier)$(Name and Address)"
+  "94C": {
+    "pattern": ":4!c//2!a",
+    "fieldNames": "(Qualifier)(Country Code)"
   },
-  "67A": {
-    "pattern": "6!n[/6!n]",
-    "fieldNames": "(Date 1)(Date 2)"
+  "94D": {
+    "pattern": ":4!c//[2!a]/35x",
+    "fieldNames": "(Qualifier)(Country Code)(Place)"
   },
-  "35F": {
-    "pattern": "35*50x",
-    "fieldNames": "(Narrative)"
+  "94E": {
+    "pattern": ":4!c//10*35x",
+    "fieldNames": "(Qualifier)(Address)"
   },
-  "35H": {
-    "pattern": "[N]3!a15d",
-    "fieldNames": "(Sign)(Currency)(Quantity)"
+  "94F": {
+    "pattern": ":4!c//4!c/4!a2!a2!c[3!c]",
+    "fieldNames": "(Qualifier)(Place Code)(Identifier Code)"
   },
-  "34B": {
-    "pattern": "3!a15d",
-    "fieldNames": "(Currency)(Amount)"
+  "94G": {
+    "pattern": ":4!c//2*35x",
+    "fieldNames": "(Qualifier)(Address)"
   },
-  "32C": {
-    "pattern": "6!n3!a15d",
-    "fieldNames": "(Date)(Currency)(Amount)"
+  "94H": {
+    "pattern": ":4!c//4!a2!a2!c[3!c]",
+    "fieldNames": "(Qualifier)(Identifier Code)"
   },
-  "32D": {
-    "pattern": "6!n3!a15d",
-    "fieldNames": "(Date)(Currency)(Amount)"
+  "95C": {
+    "pattern": ":4!c//2!a",
+    "fieldNames": "(Qualifier)(Country Code)"
   },
-  "52A": {
-    "pattern": "[/1!a][/34x]$4!a2!a2!c[3!c]",
-    "fieldNames": "(Party Identifier)$(Identifier Code)"
+  "95P": {
+    "pattern": ":4!c//4!a2!a2!c[3!c]",
+    "fieldNames": "(Qualifier)(Identifier Code)"
   },
-  "52D": {
-    "pattern": "[/1!a][/34x]$4*35x",
-    "fieldNames": "(Party Identifier)$(Name and Address)"
+  "95Q": {
+    "pattern": ":4!c//4*35x",
+    "fieldNames": "(Qualifier)(Name and Address)"
   },
-  "11S": {
-    "pattern": "3!n$6!n$[4!n6!n]",
-    "fieldNames": "(MT Number)$(Date)$(Session Number)(ISN)"
+  "95R": {
+    "pattern": ":4!c/8c/34x",
+    "fieldNames": "(Qualifier)(Data Source Scheme)(Proprietary Code)"
   },
-  "77A": {
-    "pattern": "20*35x",
-    "fieldNames": "(Narrative)"
+  "95S": {
+    "pattern": ":4!c/[8c]/4!c/2!a/30x",
+    "fieldNames": "(Qualifier)(Data Source Scheme)(Type of ID)(Country Code)(Alternate ID)"
   },
-  "11R": {
-    "pattern": "3!n$6!n$[4!n6!n]",
-    "fieldNames": "(MT Number)$(Date)$(Session Number)(ISN)"
+  "95T": {
+    "pattern": ":4!c//2*35x",
+    "fieldNames": "(Qualifier)(Name)"
   },
-  "77E": {
-    "pattern": "73x$[n*78x]",
-    "fieldNames": "(Text)$(Text)"
+  "95U": {
+    "pattern": ":4!c//3*35x",
+    "fieldNames": "(Qualifier)(Name)"
+  },
+  "95V": {
+    "pattern": ":4!c//10*35x",
+    "fieldNames": "(Qualifier)(Name and Address)"
+  },
+  "97A": {
+    "pattern": ":4!c//35x",
+    "fieldNames": "(Qualifier)(Account Number)"
+  },
+  "97B": {
+    "pattern": ":4!c/[8c]/4!c/35x",
+    "fieldNames": "(Qualifier)(Data Source Scheme)(Account Type Code)(Account Number)"
+  },
+  "97C": {
+    "pattern": ":4!c//4!c",
+    "fieldNames": "(Qualifier)(Account Code)"
+  },
+  "97E": {
+    "pattern": ":4!c//34x",
+    "fieldNames": "(Qualifier)(International Bank Account Number)"
+  },
+  "98A": {
+    "pattern": ":4!c//8!n",
+    "fieldNames": "(Qualifier)(Date)"
+  },
+  "98B": {
+    "pattern": ":4!c/[8c]/4!c",
+    "fieldNames": "(Qualifier)(Data Source Scheme)(Date Code)"
+  },
+  "98C": {
+    "pattern": ":4!c//8!n6!n",
+    "fieldNames": "(Qualifier)(Date)(Time)"
+  },
+  "98E": {
+    "pattern": ":4!c//8!n6!n[,3n][/[N]2!n[2!n]]",
+    "fieldNames": "(Qualifier)(Date)(Time)(Decimals)(UTC Sign)(UTC Indicator)"
+  },
+  "98F": {
+    "pattern": ":4!c/[8c]/4!c6!n",
+    "fieldNames": "(Qualifier)(Data Source Scheme)(Date Code)(Time)"
+  },
+  "99A": {
+    "pattern": ":4!c//[N]3!n",
+    "fieldNames": "(Qualifier)(Sign)(Number)"
+  },
+  "99B": {
+    "pattern": ":4!c//3!n",
+    "fieldNames": "(Qualifier)(Number)"
+  },
+  "99C": {
+    "pattern": ":4!c//6!n",
+    "fieldNames": "(Qualifier)(Number)"
   }
 }
