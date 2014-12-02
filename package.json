@@ -1,6 +1,6 @@
 {
   "name": "swift-parser",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Metadata driven parser of ISO 15022 messages.",
   "main": "swiftParser.js",
   "directories": {
@@ -24,13 +24,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/swiftlet/swift-parser.git"
+    "url": "git://github.com/pstodulka/swift-parser.git"
   },
   "keywords": [
     "swift",
     "iso15022",
     "15022"
   ],
-  "author": "Swiftlet",
+  "author": "Petr Stodulka <petr.stodulka@gmail.com> (http://coding.pstodulka.com/)",
   "license": "MIT"
 }

@@ -20,7 +20,7 @@ $ npm install --save swift-parser
 
 Installation from the git repository:
 ```Shell
-$ npm install --save git://github.com/swiftlet/swift-parser.git
+$ npm install --save git://github.com/pstodulka/swift-parser.git
 $ cd node_modules
 $ cd swift-parser
 $ npm install
