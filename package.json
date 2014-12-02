@@ -7,7 +7,9 @@
     "test": "tests"
   },
   "dependencies": {
-    "xregexp": "~2.0.0"
+    "xregexp": "~2.0.0",
+    "bunyan": "~1.2.1",
+    "lugg": "~1.0.0"
   },
   "devDependencies": {
     "assert": "~1.1.1",
